@@ -78,5 +78,5 @@ int main(){
 }
 
 // I never got to submit this, I was only learning recursion-backtracking at the moment, so I was happy to come up with a
-// solution using recursion + memorisation. Probably not enough to pass the tests given that seniors from my varsity
+// solution using recursion + memorisation. Probably not enough to pass the tests, given that seniors from my varsity
 // got 10+ WA/TLE before AC, still..
