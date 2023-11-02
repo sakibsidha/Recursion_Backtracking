@@ -57,17 +57,12 @@ void bt(string s, int on){
 		if(on==h) cout << s << endl;
 		return;
 	}
+	s.pb('0');
+	bt(s,on);
+	s.pop_back();
 	if(on < h){
-		s.pb('0');
-		bt(s,on);
-		s.pop_back();
 		s.pb('1');
 		bt(s,on+1);
-		s.pop_back();
-	}
-	else{
-		s.pb('0');
-		bt(s,on);
 		s.pop_back();
 	}
 }
