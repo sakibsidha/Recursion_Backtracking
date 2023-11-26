@@ -29,7 +29,7 @@ char a[n][n];
 bool notok(int start_i, int i, int start_j, int j){
 	unordered_map<char,int> M;
 	for(int p = start_i; p <= i; ++p){
-		for(int q = start_j; q <= 1; ++q){
+		for(int q = start_j; q <= j; ++q){
 			if(a[p][q]!='*'){
 				M[a[p][q]]++;
 				if(M[a[p][q]] > 1){
